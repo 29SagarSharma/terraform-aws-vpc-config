@@ -30,3 +30,5 @@ module "ec2" {
   user_data         = file("install_nginx.sh")
   environment       = var.environment
 }
+
+

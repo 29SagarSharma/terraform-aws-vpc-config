@@ -15,3 +15,7 @@ variable "key_name" {}
 variable "my_ip" {
   description = "Your IP for SSH access to bastion"
 }
+
+variable "s3_bucket" {
+  default = "2905-s3-state"
+}
